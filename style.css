@@ -1,8 +1,7 @@
 body {
     background-color: #fff;
     box-sizing:border-box;
-    margin:0; outline:0
-    
+    margin:0; outline:0   
 }
 
 
@@ -19,8 +18,6 @@ body {
     border-bottom:1px solid #ccc;
     
     position: fixed;
-
-
 }
 
 #logo {
@@ -61,13 +58,11 @@ body {
 }
 
 
-/*--------------- sec1 ---------------*/
+/*--------------- left ---------------*/
 
 #outBox {
     padding-top:60px;
-    display: flex; flex-wrap: wrap;
-
-    
+    display: flex; flex-wrap: wrap;   
     background:#eee;
 }
 
@@ -80,6 +75,7 @@ body {
 }
 
 
+/*--------------- sec1 ---------------*/
 #sec1title {
     text-align: center;
 }
@@ -95,9 +91,69 @@ body {
 }
 
 
+/*--------------- sec2 ---------------*/
 #2menu {
     
 }
+
+
+/*--------------- right ---------------*/
+#right {
+    width:65%; 
+    padding:20px;
+    
+    border:1px solid blue;
+}
+
+#sec5 {
+    background:#FFF;
+    display: flex; flex-wrap: wrap;
+    
+}
+
+#outbox {
+    width:100%;
+    display: flex;
+}
+
+#text2 {
+    width:70%;
+    border-right:1px solid #ccc;
+    text-align: center;
+}
+
+#text2-2 {
+    width:30%;
+    text-align: center;
+}
+
+#sec2inbox {
+    border-top:1px solid #ccc;
+    text-align: center;
+    margin:30px;
+}
+
+#sec2inbox>img { 
+    margin-top:40px;
+    
+}
+
+#sec2inbox>p {
+    margin: 50px auto;
+    width:80%;
+}
+
+#5button { 
+    
+}
+
+
+
+
+
+
+
+
 
 
 
